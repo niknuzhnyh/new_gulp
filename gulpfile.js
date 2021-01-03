@@ -190,6 +190,7 @@ function fontsStyle() {
 
 function cb() { }
 
+
 function watchFiles() {
 	gulp.watch([path.watch.html], html);
 	gulp.watch([path.watch.css], css);
